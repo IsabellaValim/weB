@@ -10,13 +10,7 @@
 <body>
     <h1>FORMS</h1>
     <form action='https://www.w3schools.com/action_page.php' target="_blank">
-        <h2>Text</h2>
-        <label for="pnome">Primeiro nome:</label><br>
-        <input type="text" id="pnome" name="pnome"><br>
-        <label for="lname">Segundo nome:</label><br>
-        <input type="text" id="lname" name="lname">
 
-        <h2>Radio</h2>
         <input type="radio" id="html" name="fav_language" value="HTML" checked>
         <label for="html">HTML</label><br>
         <input type="radio" id="css" name="fav_language" value="CSS">
@@ -35,8 +29,6 @@
         <label for="veiculo4"> Eu tenho um tanque</label><br>
         <input type="checkbox" id="veiculo5" name="veiculo5" value="jato">
         <label for="veiculo5"> Eu tenho um jato</label><br>
-
-
 
 
 
@@ -72,7 +64,7 @@
             <option value="Opera">
             <option value="Safari">
         </datalist> <br>
-    
+
 
         <h2>Submit</h2>
         <form action="/action_page.php">
@@ -80,7 +72,43 @@
             <input type="text" id="nome" name="nome" value="Maria"><br>
             <label for="sobrenome">Sobrenome:</label><br>
             <input type="text" id="sobrenome" name="sobrenome" value="da Silva">
-            <br><input type="submit" value="Enviar"><br>
+           
+
+            <h2>Cor</h2>
+            <input type="color" name="cor" id="cor"><br>
+
+            <h2>Data e local</h2>
+
+                <input type="datetime-local" name="" id=""><br>
+                <input type="date" name="data" id="data"><br><br>
+                <h2>email</h2>
+                <input type="email" name="email" id="email"><br>
+                <h2>Arquivo</h2>
+                <input type="file" name="arquivo" id="arquivo"><br>
+
+                <input type="hidden" name="esconder"><br>
+                <h2>Imagem</h2>
+                <input type="image" src="https://th.bing.com/th/id/OIP.GQe2XoHBbJKdGMs76qJEaAEsDh?rs=1&pid=ImgDetMain" alt="imagem"><br>
+                <h2>Mes</h2>
+                <input type="month" name="mes" id="mes"><br>
+                <h2>Número</h2>
+                <input type="number" name="num" id="num"><br>
+                <h2>Senha</h2>
+                <input type="password" name="pass" id="pass"><br>
+                <h2>Range</h2>
+                <input type="range" name="range" id="range"><br>
+                <h2>Reset</h2>
+                <input type="reset" value="reset"><br>
+                <h2>Pesquisar</h2>
+                <input type="search" name="pesquisa" id="pesquisa"><br>
+                <h2>Tempo</h2>
+                <input type="time" name="time" id="time"><br>
+                <h2>Url</h2>
+                <input type="url" name="url" id="url"><br>
+                <h2>Semana</h2>
+                <input type="week" name="semana" id="semana"><br>
+                <br><input type="submit" value="Enviar"><br>
+
         </form>
 
     </form>
