@@ -15,17 +15,38 @@
 }
 
 nav {
-    background-color: #ffb4d7;
+    background-color: #a06c3f;
     padding: 10px;
     font-family: Verdana, Geneva, Tahoma, sans-serif
-    
 }
 
 li {
     display: inline;
     margin-right: 20px;
 }
-a {
+
+.a1 {
     text-decoration: none;
-    color: #ffffff;
-    {}
+    color: #e8cb9a;
+}
+
+.a2{
+    text-decoration: none;
+    color: #000000
+}
+
+a:hover {
+    color: #623307;
+}
+
+.marrom {
+    text-decoration: none;
+    color: #a06c3f;
+}
+body {
+    background-color: #fff9e1;
+}
+.sub {
+    text-decoration: none;
+    color: #bd285f;
+}
