@@ -1,0 +1,31 @@
+.fontetitulo {
+    font-family: "Merriweather", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.fontesubt {
+    font-family: "Merriweather", serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.esq {
+    padding-left: 200px;
+}
+
+nav {
+    background-color: #ffb4d7;
+    padding: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+    
+}
+
+li {
+    display: inline;
+    margin-right: 20px;
+}
+a {
+    text-decoration: none;
+    color: #ffffff;
+    {}
