@@ -1,3 +1,9 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+}
+
 .fontetitulo {
     font-family: "Merriweather", serif;
     font-weight: 400;
@@ -30,7 +36,7 @@ li {
     color: #e8cb9a;
 }
 
-.a2{
+.a2 {
     text-decoration: none;
     color: #000000
 }
@@ -43,10 +49,12 @@ a:hover {
     text-decoration: none;
     color: #a06c3f;
 }
+
 body {
     background-color: #fff9e1;
 }
+
 .sub {
     text-decoration: none;
-    color: #bd285f;
+    color: #445a14;
 }
