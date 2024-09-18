@@ -1,0 +1,35 @@
+.catg {
+    border: 5px solid #25fc09;
+}
+
+
+.caty {
+    border: 5px solid #c9bf07;
+}
+
+
+.catr {
+    border: 5px solid #ee0b0b;
+    ;
+}
+
+img {
+    width: 120px;
+    height: 120px;
+}
+
+.circle {
+    border-radius: 50%;
+}
+
+#lvl1 {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column-reverse;
+}
+
+.lvl2 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
