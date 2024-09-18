@@ -1,3 +1,7 @@
+div {
+    margin: 0%;
+}
+
 .catg {
     border: 5px solid #25fc09;
 }
@@ -22,14 +26,29 @@ img {
     border-radius: 50%;
 }
 
-#lvl1 {
+.lvl1 {
     display: flex;
-    justify-content: flex-start;
-    flex-direction: column-reverse;
+    justify-content: flex-end;
+
 }
 
 .lvl2 {
     display: flex;
     justify-content: center;
-    flex-direction: column;
+
+}
+
+.lvl3 {
+    display: flex;
+    justify-content: space-around;
+}
+
+.lvl4 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.lvl5 {
+    display: flex;
+    align-items: flex-end;
 }
