@@ -1,9 +1,16 @@
 div {
     margin: 0%;
 }
+body{
+    background-color: rgb(206, 248, 248);
+}
+
 
 .catg {
     border: 5px solid #25fc09;
+}
+.esq {
+    padding-left: 575px;
 }
 
 
@@ -22,33 +29,167 @@ img {
     height: 120px;
 }
 
+h1 {
+
+    font-family: "Pixelify Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+
+    
+
+}
+
 .circle {
     border-radius: 50%;
 }
 
-.lvl1 {
+.ex1 {
     display: flex;
     justify-content: flex-end;
-
 }
 
-.lvl2 {
+.ex2 {
     display: flex;
     justify-content: center;
-
 }
 
-.lvl3 {
+.ex3 {
     display: flex;
     justify-content: space-around;
 }
 
-.lvl4 {
+.ex4 {
     display: flex;
     justify-content: space-between;
 }
 
-.lvl5 {
+.ex5 {
     display: flex;
     align-items: flex-end;
+}
+
+.ex6 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ex7 {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+}
+
+.ex8 {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.ex9 {
+    display: flex;
+    flex-direction: column;
+}
+
+.ex10 {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+}
+
+.ex11 {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.ex12 {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: space-between;
+}
+
+.ex13 {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.ex14 {
+    display: flex;
+}
+
+.ex14Amarelo {
+    order: 3;
+}
+
+.ex15 {
+    display: flex;
+}
+
+.ex15Vermelho {
+    order: -1;
+}
+
+.ex16 {
+    display: flex;
+    align-items: flex-start;
+}
+
+.ex16Amarelo {
+    align-self: flex-end;
+}
+
+.ex17 {
+    display: flex;
+    align-items: flex-start;
+}
+
+.ex17Amarelo {
+    order: 1;
+    align-self: flex-end;
+}
+
+.ex18 {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.ex19 {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.ex20 {
+    display: flex;
+    flex-flow: column wrap;
+}
+
+.ex21 {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+}
+
+.ex22 {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-end;
+}
+
+.ex23 {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column-reverse;
+    align-content: center;
+}
+
+.ex24 {
+    display: flex;
+    justify-content: center;
+    align-content: space-between;
+    flex-direction: column-reverse;
+    flex-wrap: wrap-reverse;
 }
