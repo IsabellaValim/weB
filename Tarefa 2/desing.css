@@ -1,14 +1,35 @@
 div {
-    margin: 0%;
+    background-color: #ee92e6;
+
+    /* limitar o tamanho da div pra ficar um bloco 5x5, pq no site lá o máximo é 5 sapos por coluna e por linha */
+    /* logo a altura e largura da div, nesse caso, deve ser de aproximadamente 5 vezes o tamanho da imagem */
+    /* no seu caso 120px * 5 = 600px */
+    height: 600px;
+    width: 600px;
+
+    /* deixar a div no centro da tela */
+    display: flex;
+    margin: 0 auto;
+
+    /* borda e espaço entre ela e a imagem */
+    border-radius: 4%;
+    padding: 5px;
 }
-body{
-    background-color: rgb(206, 248, 248);
+
+body {
+    background-color: #ffebf0;
+
+    font-family: "Pixelify Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
 }
 
 
 .catg {
     border: 5px solid #25fc09;
 }
+
 .esq {
     padding-left: 575px;
 }
@@ -30,14 +51,30 @@ img {
 }
 
 h1 {
+    /* joguei a fonte pro body, assim o h1 herda a fonte do body e aplica pra geral */
+    /*e como vc usou uma fonte externa, vc tem que copiar o link dela e colar no head do html em todos os arquivos, 1 por 1*/
+    /* <link href="https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&display=swap" rel="stylesheet"> esse */
+    /* ao menos que vc vá copiando o código já pronto para o próximo arquivo */
 
-    font-family: "Pixelify Sans", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: <weight>;
-    font-style: normal;
+    /* centralizar o título */
+    display: flex;
+    justify-content: center;
 
-    
+    /* corzinha coquette */
+    color: #ff6f91;
+    background-color: #ffe6f1;
 
+
+}
+
+.next {
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+.ant {
+    display: flex;
+    align-items: first baseline;
 }
 
 .circle {
