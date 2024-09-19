@@ -7,6 +7,61 @@
     <title>Level 6</title>
     <link rel="stylesheet" href="desing.css">
     <link href="https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: "Pixelify Sans", sans-serif;
+            background-color: #ffebf0;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            text-align: center;
+        }
+
+
+        h1 {
+            color: #ff6f91;
+            background-color: #ffe6f1;
+            padding: 20px;
+            border-radius: 15px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            padding: 20px;
+        }
+
+        .button {
+            background-color: #ff9aa2;
+
+            color: white;
+            padding: 15px 25px;
+            margin: 10px;
+            border: none;
+            border-radius: 20px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+
+            font-size: 18px;
+        }
+
+        .button:hover {
+            background-color: #ff6f91;
+        }
+
+        @media (max-width: 600px) {
+            .button {
+                width: 100%;
+                padding: 15px;
+            }
+        }
+    </style>
 </head>
 
 <body>
@@ -15,6 +70,10 @@
     <div class="ex6">
         <img class="catg circle" src="greencat.jpeg" alt="">
     </div>
+    <section class="next"> <a href="level5.html" class="button">Level 5</a>
+        <a href="level7.html" class="button">Level 7</a>
+
+    </section>
 </body>
 
 </html>

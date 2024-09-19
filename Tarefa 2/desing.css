@@ -4,7 +4,7 @@ div {
     /* limitar o tamanho da div pra ficar um bloco 5x5, pq no site lá o máximo é 5 sapos por coluna e por linha */
     /* logo a altura e largura da div, nesse caso, deve ser de aproximadamente 5 vezes o tamanho da imagem */
     /* no seu caso 120px * 5 = 600px */
-    height: 600px;
+    height: 700px;
     width: 600px;
 
     /* deixar a div no centro da tela */
@@ -14,6 +14,37 @@ div {
     /* borda e espaço entre ela e a imagem */
     border-radius: 4%;
     padding: 5px;
+}
+#exe23{
+    height: 0px;
+    width: 0px;
+
+    height: 500px;
+    width: 700px;
+    display: flex;
+    justify-content: center;
+}
+#exe22{
+    height: 0px;
+    width: 0px;
+
+    height: 500px;
+    width: 660px;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+
+}
+#exe21{
+        height: 0px;
+        width: 0px;
+    
+        height: 500px;
+        width: 660px;
+        display: flex;
+        justify-content: start;
+        align-items: center;
+        
 }
 
 body {
