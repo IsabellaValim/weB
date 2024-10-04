@@ -1,267 +1,311 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Page</title>
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
-      crossorigin="anonymous"
-    />
-  </head>
-  <body>
-    <nav class="navbar navbar-expand-lg bg-body-tertiary navbar bg-dark border-bottom border-body" data-bs-theme="dark"">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="#">Navbar</a>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarSupportedContent"
-          aria-controls="navbarSupportedContent"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Home</a>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Obras de Caravaggio</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous" />
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg bg-body-tertiary navbar bg-dark border-bottom border-body" data-bs-theme="dark"">
+      <div class=" container-fluid">
+    <a class="navbar-brand" href="#">Obras de Caravaggio</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="home.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="https://www.culturagenial.com/caravaggio-obras-e-biografia/">Fonte</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Infos
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="https://www.culturagenial.com/caravaggio-obras-e-biografia/">Imagens contidas no site</a></li>
+            <li><a class="dropdown-item" href="https://arteref.com/historia/caravaggio-um-pintor-procurado-por-assassinato/">Segunda fonte</a></li>
+            <li>
+              <hr class="dropdown-divider" />
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Link</a>
-            </li>
-            <li class="nav-item dropdown">
-              <a
-                class="nav-link dropdown-toggle"
-                href="#"
-                role="button"
-                data-bs-toggle="dropdown"
-                aria-expanded="false"
-              >
-                Dropdown
-              </a>
-              <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="#">Action</a></li>
-                <li><a class="dropdown-item" href="#">Another action</a></li>
-                <li><hr class="dropdown-divider" /></li>
-                <li>
-                  <a class="dropdown-item" href="#">Something else here</a>
-                </li>
-              </ul>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+            <li>
+              <a class="dropdown-item" href="https://youtu.be/QL8kNFfxyB4?t=5">Video sobre o artista</a>
             </li>
           </ul>
-          <form class="d-flex" role="search">
-            <input
-              class="form-control me-2"
-              type="search"
-              placeholder="Search"
-              aria-label="Search"
-            />
-            <button class="btn btn-outline-success" type="submit">
-              Search
-            </button>
+
           </form>
-        </div>
-      </div>
-    </nav>
+    </div>
+    </div>
+  </nav>
 
-    <div id="carouselExampleIndicators" class="carousel slide">
-        <div class="carousel-indicators">
-          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
-        </div>
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <img [class]="cat" src="catone.jfif" class="d-block w-100" alt="...">
-          </div>
-          <div class="carousel-item">
-            <img [class]="cat" src="cattwo.jfif.crdownload" class="d-block w-100" alt="...">
-          </div>
-          <div class="carousel-item">
-            <img [class]="cat" src="cattree.jfif" class="d-block w-100" alt="...">
-          </div>
-        </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
+  <div id="carouselExampleIndicators" class="carousel slide">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+        aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+        aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+        aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="destaque1.jpg" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="destaque2.jpeg" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="destaque 3.jpg" class="d-block w-100" alt="...">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+      data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+      data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+  <div class="accordion accordion-flush" id="accordionFlushExample">
+    <div class="accordion-item">
+      <h2 class="accordion-header">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+          data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+          Um pouco sobre o artista...
         </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
+      </h2>
+      <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+        <div class="accordion-body">Michelangelo Merisi (1571 — 1610) foi um notório pintor italiano que assinava as
+          suas obras como Caravaggio, o nome da aldeia onde nasceu.
+
+          Apontado como um dos pioneiros da pintura barroca, o artista se tornou o maior representante do movimento. As
+          suas obras apresentam algumas características fundamentais da época: por exemplo, as cenas religiosas e a
+          profunda carga dramática.
+
+          Apesar do enorme sucesso com os patronos, as telas do pintor também eram consideradas chocantes e até
+          violentas. Caravaggio imprimia uma aura de realismo nos cenários que pintava, procurando retratar a vastidão
+          das emoções e expressões humanas.
+
+          Conhecido principalmente pela sua produção artística, Caravaggio também tem sido lembrado pela sua biografia
+          atribulada e envolta em brigas e mistérios.
+        </div>
+      </div>
+    </div>
+    <div class="accordion-item">
+      <h2 class="accordion-header">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+          data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+          características das pinturas...
         </button>
-      </div>
+      </h2>
+      <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+        <div class="accordion-body">Mesmo quando pintava obras de forte pendor religioso, o artista não representava os
+          indivíduos como figuras idealizadas ou celestiais. O pintor se inspirava no povo italiano, nas pessoas comuns
+          com as quais se cruzava diariamente.
 
-      <div class="accordion accordion-flush" id="accordionFlushExample">
-        <div class="accordion-item">
-          <h2 class="accordion-header">
-            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
-              Accordion Item #1
-            </button>
-          </h2>
-          <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
-            <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the first item's accordion body.</div>
-          </div>
-        </div>
-        <div class="accordion-item">
-          <h2 class="accordion-header">
-            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
-              Accordion Item #2
-            </button>
-          </h2>
-          <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
-            <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the second item's accordion body. Let's imagine this being filled with some actual content.</div>
-          </div>
-        </div>
-        <div class="accordion-item">
-          <h2 class="accordion-header">
-            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
-              Accordion Item #3
-            </button>
-          </h2>
-          <div id="flush-collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
-            <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the third item's accordion body. Nothing more exciting happening here in terms of content, but just filling up the space to make it look, at least at first glance, a bit more representative of how this would look in a real-world application.</div>
-          </div>
+          As telas chegaram mesmo a provocar escândalo, já que algumas figuras eram inspiradas em homens e mulheres de
+          classes marginalizadas, como as prostitutas e os marinheiros.
+
+          Misturando o divino e o mundano, Caravaggio conferiu um caráter realista e até humano aos textos sagrados,
+          representando cenas chocantes e rostos que transbordam expressividade. Nos seus quadros, podemos identificar
+          sentimentos universais como o medo, a fúria e a dor.
+
+          O artista pintou entre os anos de 1593 e 1610, nas cidades de Roma, Nápoles, Malta e Sicília. Além dos
+          episódios religiosos, também retratou temas ligados à natureza, à mitologia e à vida cotidiana.
+
+          Enquanto pintor barroco, Caravaggio também se serviu dos jogos de luzes e sombras típicos da época para
+          conferir um tom dramático aos seus quadros.
+
+          O italiano foi o criador do tenebrismo, uma técnica que combina um fundo escuro com pontos de luz
+          estrategicamente colocados em primeiro plano, principalmente nos rostos.
         </div>
       </div>
+    </div>
+    <div class="accordion-item">
+      <h2 class="accordion-header">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+          data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+         Sobre sua mostre...
+        </button>
+      </h2>
+      <div id="flush-collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+        <div class="accordion-body">Após uma carreira de pouco mais de uma década, Caravaggio morreu em circunstâncias
+          desconhecidas, em julho de 1610, aos 38 anos. Seu corpo permaneceu em local desconhecido por séculos.Em 16 de
+          junho de 2010, uma equipe de cientistas e universitários italianos do “Comitê Caravaggio” anunciou a
+          identificação dos restos mortais do pintor, graças a análises de DNA e de carbono-14, no pequeno cemitério da
+          frazione de Porto Ercole, na comuna de Monte Argentario, na Toscana. A probabilidade de certeza desta
+          descoberta, divulgada pelos pesquisadores, é de 85%.
+
+          Em estudo divulgado em setembro de 2018, identificou-se que a morte de Caravaggio foi provocada por uma
+          infecção causada pela bactéria “Staphylococcus aureus”, contraída a menos de um mês de sua morte por
+          ferimentos em decorrência de uma briga, na qual foi ferido por uma espada.
+
+          Para chegar a esta conclusão, pesquisadores analisaram seus dentes molares, caninos e incisivos, ondem abundam
+          os vasos sanguíneos para determinar a causa real de sua morte.
+        </div>
+      </div>
+    </div>
+  </div>
 
 
 
-    <main class="d-flex flex-wrap justify-content-center " >
-        <div class="card m-3" style="width: 18rem;">
-            <img class src="cattwo.jfif.crdownload" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              <a href="#" class="btn btn-primary">Go somewhere</a>
-            </div>
-          </div>
-    
-          <div  class="card m-3" style="width: 18rem;">
-            <img src="cattwo.jfif.crdownload" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              <a href="#" class="btn btn-primary">Go somewhere</a>
-            </div>
-          </div>
-          <section class="fixed-bottom bg-black d-flex justify-content-center ">
-            <p class="text-white my-0 py-3">Copyright 2024 - Isabella Valim</p>
-           </section>
-        
-           <div  class="card m-3" style="width: 18rem;">
-            <img src="cattwo.jfif.crdownload" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              <a href="#" class="btn btn-primary">Go somewhere</a>
-            </div>
-          </div>
-          <section class="fixed-bottom bg-black d-flex justify-content-center ">
-            <p class="text-white my-0 py-3">Copyright 2024 - Isabella Valim</p>
-           </section>
-        
-           <div  class="card m-3" style="width: 18rem;">
-            <img src="cattwo.jfif.crdownload" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              <a href="#" class="btn btn-primary">Go somewhere</a>
-            </div>
-          </div>
-          <section class="fixed-bottom bg-black d-flex justify-content-center ">
-            <p class="text-white my-0 py-3">Copyright 2024 - Isabella Valim</p>
-           </section>
-        
-           <div  class="card m-3" style="width: 18rem;">
-            <img src="cattwo.jfif.crdownload" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              <a href="#" class="btn btn-primary">Go somewhere</a>
-            </div>
-          </div>
-          <section class="fixed-bottom bg-black d-flex justify-content-center ">
-            <p class="text-white my-0 py-3">Copyright 2024 - Isabella Valim</p>
-           </section>
-        
-           <div  class="card m-3" style="width: 18rem;">
-            <img src="cattwo.jfif.crdownload" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              <a href="#" class="btn btn-primary">Go somewhere</a>
-            </div>
-          </div>
-          <section class="fixed-bottom bg-black d-flex justify-content-center ">
-            <p class="text-white my-0 py-3">Copyright 2024 - Isabella Valim</p>
-           </section>
-        
-           <div  class="card m-3" style="width: 18rem;">
-            <img src="cattwo.jfif.crdownload" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              <a href="#" class="btn btn-primary">Go somewhere</a>
-            </div>
-          </div>
-          <section class="fixed-bottom bg-black d-flex justify-content-center ">
-            <p class="text-white my-0 py-3">Copyright 2024 - Isabella Valim</p>
-           </section>
-        
-           <div  class="card m-3" style="width: 18rem;">
-            <img src="cattwo.jfif.crdownload" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              <a href="#" class="btn btn-primary">Go somewhere</a>
-            </div>
-          </div>
+  <main class="d-flex flex-wrap justify-content-center ">
+    <div class="card m-3" style="width: 18rem;">
+      <img class src="ed1.jpg" class="card-img-top" alt="..." width="300px">
+      <div class="card-body">
+        <h5 class="card-title">A cabeça da Medusa</h5>
+        <p class="card-text">A imagem emocionante e perturbadora é, sem dúvida, a obra-prima de Caravaggio, estando
+          bastante presente na cultura contemporânea. Uma primeira versão, menor, foi produzida em 1596 e hoje pertence
+          a uma coleção privada.</p>
+        <a href="#" class="btn btn-primary">Go somewhere</a>
+      </div>
+    </div>
 
-          <div  class="card m-3" style="width: 18rem;">
-            <img src="cattwo.jfif.crdownload" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              <a href="#" class="btn btn-primary">Go somewhere</a>
-            </div>
-          </div>
+    <div class="card m-3" style="width: 18rem;">
+      <img src="ed2.webp " class="card-img-top" alt="..." height="300px" width="400px">
+      <div class="card-body">
+        <h5 class="card-title">Cesto de frutas</h5>
+        <p class="card-text">Embora não existam certezas acerca da data, acredita-se que o quadro tenha sido pintado em
+          1599. Os especialistas defendem que seria uma reação do pintor à escola maneirista que ditava regras ligadas
+          às proporções e a harmonia das obras, buscando uma atmosfera etérea.</p>
+        <a href="#" class="btn btn-primary">Go somewhere</a>
+      </div>
+    </div>
+    <section class="fixed-bottom bg-black d-flex justify-content-center ">
+      <p class="text-white my-0 py-3">Copyright 2024 - Isabella Valim</p>
+    </section>
 
-          <div  class="card m-3" style="width: 18rem;">
-            <img src="cattwo.jfif.crdownload" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              <a href="#" class="btn btn-primary">Go somewhere</a>
-            </div>
-          </div>
+    <div class="card m-3" style="width: 18rem;">
+      <img src="ed3.webp" class="card-img-top" alt="..." width="300px">
+      <div class="card-body">
+        <h5 class="card-title">Narciso</h5>
+        <p class="card-text">Narciso é uma obra criada entre os anos de 1597 e 1599, inspirada em um episódio da
+          mitologia grega. A pintura é inspirada no mito de Narciso, que Ovídio narrou na obra Metamorfoses.</p>
+        <a href="#" class="btn btn-primary">Go somewhere</a>
+      </div>
+    </div>
+    <section class="fixed-bottom bg-black d-flex justify-content-center ">
+      <p class="text-white my-0 py-3">Copyright 2024 - Isabella Valim</p>
+    </section>
 
-          <section class="fixed-bottom bg-black d-flex justify-content-center ">
-            <p class="text-white my-0 py-3">Copyright 2024 - Isabella Valim</p>
-           </section>
-    </main>
-    
+    <div class="card m-3" style="width: 18rem;">
+      <img src="ed4.webp" class="card-img-top" alt="..." width="300px">
+      <div class="card-body">
+        <h5 class="card-title">Baco</h5>
+        <p class="card-text">Inspirado no deus romano do vinho, o quadro de temática considerada profana, na época, foi
+          pintado em 1595 e está exposto na Galeria de Uffizi, em Florença.</p>
+        <a href="#" class="btn btn-primary">Go somewhere</a>
+      </div>
+    </div>
+    <section class="fixed-bottom bg-black d-flex justify-content-center ">
+      <p class="text-white my-0 py-3">Copyright 2024 - Isabella Valim</p>
+    </section>
+
+    <div class="card m-3" style="width: 18rem;">
+      <img src="ed5.webp" class="card-img-top" alt="..." width="300px">
+      <div class="card-body">
+        <h5 class="card-title">A Ceia em Emaús</h5>
+        <p class="card-text">A Ceia em Emaús é uma obra de temática religiosa pintada em 1606, que retrata uma passagem
+          bíblica. Presente no Evangelho de S. Lucas, o episódio ocorre logo depois da ressurreição do filho de Deus.
+        </p>
+        <a href="#" class="btn btn-primary">Go somewhere</a>
+      </div>
+    </div>
+    <section class="fixed-bottom bg-black d-flex justify-content-center ">
+      <p class="text-white my-0 py-3">Copyright 2024 - Isabella Valim</p>
+    </section>
+
+    <div class="card m-3" style="width: 18rem;">
+      <img src="ed6.webp" class="card-img-top" alt="..." width="300px">
+      <div class="card-body">
+        <h5 class="card-title">Os Trapaceiros</h5>
+        <p class="card-text">Pintado em 1594, o quadro representa um importante momento de viragem na carreira de
+          Caravaggio. Na época, o artista tinha acabado de abandonar o trabalho nos ateliês de outros pintores e
+          começava a exercer o seu ofício de forma independente.</p>
+        <a href="#" class="btn btn-primary">Go somewhere</a>
+      </div>
+    </div>
+    <section class="fixed-bottom bg-black d-flex justify-content-center ">
+      <p class="text-white my-0 py-3">Copyright 2024 - Isabella Valim</p>
+    </section>
+
+    <div class="card m-3" style="width: 18rem;">
+      <img src="ed7.webp" class="card-img-top" alt="..." width="300px">
+      <div class="card-body">
+        <h5 class="card-title"> Davi com a cabeça de Golias</h5>
+        <p class="card-text">Davi com a cabeça de Golias é uma obra de 1610, sendo uma das várias representações que
+          Caravaggio fez da história bíblica. Golias, o gigante, subestimou as capacidades do pastor Davi pelo seu
+          tamanho, quando travaram uma batalha.</p>
+        <a href="#" class="btn btn-primary">Go somewhere</a>
+      </div>
+    </div>
+    <section class="fixed-bottom bg-black d-flex justify-content-center ">
+      <p class="text-white my-0 py-3">Copyright 2024 - Isabella Valim</p>
+    </section>
+
+    <div class="card m-3" style="width: 18rem;">
+      <img src="ed8.webp" class="card-img-top" alt="..." width="300px">
+      <div class="card-body">
+        <h5 class="card-title"> Flagelação de Cristo</h5>
+        <p class="card-text">A obra de 1607 representa um dos episódios mais inesquecíveis da Bíblia, que foi bastante
+          retratado na pintura. Na tela, que se encontra no Museu de Belas Artes de Ruão, na França, vemos a figura de
+          Cristo antes de ser crucificado.</p>
+        <a href="#" class="btn btn-primary">Go somewhere</a>
+      </div>
+    </div>
+
+    <div class="card m-3" style="width: 18rem;">
+      <img src="ed9.webp" class="card-img-top" alt="..." width="300px">
+      <div class="card-body">
+        <h5 class="card-title"> Rapaz com Cesto de Frutas</h5>
+        <p class="card-text">Embora não seja possível determinar a data exata do quadro, acredita-se que o Rapaz com
+          Cesto de Frutas tenha sido pintado em 1593 ou nos anos subsequentes.Trata-se de um retrato de Mario Minniti,
+          um jovem artista da Sicília e companheiro de ofício de Caravaggio, que foi criado no início da sua carreira
+        </p>
+        <a href="#" class="btn btn-primary">Go somewhere</a>
+      </div>
+    </div>
+
+    <div class="card m-3" style="width: 18rem;">
+      <img src="destaque2.jpeg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Judite e Holofernes</h5>
+        <p class="card-text">Outra obra extremamente popular de Caravaggio é Judite e Holofernes, pintada entre os anos
+          de 1598 e 1599. O quadro retrata uma passagem bíblica, do Antigo Testamento, na qual a viúva seduz o general e
+          depois o assassina.</p>
+        <a href="#" class="btn btn-primary">Go somewhere</a>
+      </div>
+    </div>
+
+    <section class="fixed-bottom bg-black d-flex justify-content-center ">
+      <p class="text-white my-0 py-3">Copyright 2024 - Isabella Valim</p>
+    </section>
+  </main>
 
 
 
 
 
 
-      <section class="fixed-bottom bg-black d-flex justify-content-center ">
-        <p class="text-white my-0 py-3">Copyright 2024 - Isabella Valim</p>
-       </section>
-    
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
-      crossorigin="anonymous"
-    ></script>
-  </body>
+
+  <section class="fixed-bottom bg-black d-flex justify-content-center ">
+    <p class="text-white my-0 py-3">Copyright 2024 - Isabella Valim</p>
+  </section>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+</body>
+
 </html>
