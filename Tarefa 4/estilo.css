@@ -1,0 +1,8 @@
+.cat{
+    height: 400px;
+    width: 1400px;
+}
+.space{
+    display: flex;
+    justify-content: space-between;
+}
