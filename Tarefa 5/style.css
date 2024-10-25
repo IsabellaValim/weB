@@ -1,0 +1,48 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    padding: 20px;
+}
+
+h1 {
+    font-size: 50px;
+    margin-bottom: 10px;
+    font-family: "Crimson Text", serif;
+    font-weight: 600;
+    font-style: normal;
+
+}
+
+p {
+    font-size: 16px;
+    margin-bottom: 20px;
+    font-family: "Crimson Text", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+img {
+    width: 400px;
+    height: 300px;
+}
+
+.image-button {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+button {
+    padding: 20px 40px;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.azul {
+    color: antiquewhite;
+    background-color: aquamarine;
+}
