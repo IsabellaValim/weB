@@ -1,19 +1,38 @@
 let file = "https://6724b576c39fedae05b27067.mockapi.io/Animal";
 
-function buscaAnimal(){
+
+function limpaTotos() {
     fetch(file)
-    .then(response => response.json())
-    .then(myArray => {
-        console.log(myArray);
-        atualizaLista(myArray);
-    });
+        .then(response => response.json())
+        .then(animais => {
+
+            const totos = animais.filter(animal => animal.nome === "Totô");
+            totos.forEach(toto => {
+                fetch(`${file}/${toto.id}`, {
+                    method: 'DELETE'
+                });
+            });
+        })
+        .then(() => {
+            buscaAnimal();
+        })
+        .catch(err => {
+            console.log(err);
+        });
 }
 
+function buscaAnimal() {
+    fetch(file)
+        .then(response => response.json())
+        .then(myArray => {
+            console.log(myArray);
+            atualizaLista(myArray);
+        });
+}
 function atualizaLista(listaAnimais) {
-    let lista = document.querySelector('#lista'); //busco no meu html onde esta a minha lista
-    let i = 0;
+    let lista = document.querySelector('#lista');
 
-    lista.innerHTML = ''; //limpo os valores que estao na lista quando recarrego a pagina
+    lista.innerHTML = '';
 
     listaAnimais.forEach((animal, index) => {
         lista.innerHTML +=
@@ -29,7 +48,7 @@ function addToto() {
         },
         body: JSON.stringify({
             "nome": 'Totô',
-            "idade": 12 ,
+            "idade": 12,
             "raca": 'cachorro'
         })
     })
@@ -41,5 +60,6 @@ function addToto() {
         .catch(err => {
             console.log(err);
         });
-   
 }
+
+window.onload = limpaTotos;
